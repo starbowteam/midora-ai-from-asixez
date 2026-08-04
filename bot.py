@@ -593,7 +593,7 @@ async def on_ready():
     load_knowledge()
     await bot.change_presence(
         status=disnake.Status.online,
-        activity=disnake.Game("Midora AI | ASIXEZ | Majestic RP")
+        activity=disnake.Game("Midora AI | discord.gg/diamondshop")
     )
     logger.info(f"✅ Бот {bot.user} запущен, чанков: {len(knowledge_chunks)}")
     await log_discord(
