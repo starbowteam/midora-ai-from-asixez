@@ -1,0 +1,275 @@
+2026-08-05 05:33:54,617 | INFO | No device provided, using cpu
+2026-08-05 05:33:55,556 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:33:55,648 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-08-05 05:33:55,867 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:33:55,869 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-05 05:33:55,959 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-05 05:33:55,961 | INFO | Loading SentenceTransformer model from sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2.
+2026-08-05 05:33:56,181 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:33:56,272 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-05 05:33:56,489 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:33:56,577 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-08-05 05:33:56,792 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:33:56,882 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-08-05 05:33:57,097 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:33:57,187 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-08-05 05:33:57,406 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-08-05 05:33:57,627 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:33:57,718 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-08-05 05:33:58,343 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-08-05 05:33:58,565 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-05 05:33:58,784 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-05 05:33:59,004 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-05 05:33:59,220 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:33:59,309 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-05 05:33:59,523 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:33:59,613 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-08-05 05:33:59,832 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:33:59,922 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-08-05 05:34:00,140 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:34:00,232 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-05 05:34:00,448 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:34:00,538 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-05 05:34:00,755 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-05 05:34:00,973 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-05 05:34:02,988 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-08-05 05:34:03,431 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:34:03,520 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-08-05 05:34:03,739 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-08-05 05:34:03,750 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-08-05 05:34:03,752 | INFO | logging in using static token
+2026-08-05 05:34:04,897 | INFO | Shard ID None has sent the IDENTIFY payload.
+2026-08-05 05:34:05,460 | INFO | Shard ID None has connected to Gateway: ["gateway-prd-arm-us-east1-d-k4gl",{"micros":355599,"calls":["id_created",{"micros":688,"calls":[]},"session_lookup_time",{"micros":413,"calls":[]},"session_lookup_finished",{"micros":10,"calls":[]},"sessions-prd-gcp-us-east1-d-45",{"micros":353245,"calls":["start_session",{"micros":330798,"calls":["prd-rpc-5b9cd885cf-jc7tf",{"micros":201985,"calls":["get_user",{"micros":46377},"get_guilds",{"micros":13436},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":15},"pending_payments",{"micros":4615},"apex_experiments",{"micros":107936},"sessions_experiments",{"micros":7},"played_application_ids",{"micros":5},"linked_users",{"micros":5},"ad_personalization_toggles_disabled",{"micros":5},"regional_feature_config",{"micros":5}]}]},"starting_guild_connect",{"micros":57,"calls":[]},"lobbies_started",{"micros":1,"calls":[]},"presence_started",{"micros":1231,"calls":[]},"guilds_started",{"micros":106,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":21021,"calls":[]},"connect_finished",{"micros":21034,"calls":[]},"build_ready",{"micros":15,"calls":[]},"clean_ready",{"micros":2,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: e0440941d31fe8a83ba6513219d70953, Resume URL: wss://gateway-us-east1-d.discord.gg).
+2026-08-05 05:34:07,488 | INFO | 📄 Административный кодекс.txt (вес 1.5) → 27 чанков
+2026-08-05 05:34:09,591 | INFO | 📄 Гражданский кодекс.txt (вес 1.5) → 43 чанков
+2026-08-05 05:34:11,921 | INFO | 📄 Дорожный кодекс.txt (вес 1.0) → 63 чанков
+2026-08-05 05:34:15,057 | INFO | 📄 Закон SANG.txt (вес 1.5) → 28 чанков
+2026-08-05 05:34:16,490 | INFO | 📄 Закон о States United Secret Services.txt (вес 1.5) → 33 чанков
+2026-08-05 05:34:17,871 | INFO | 📄 Закон о гос документах.txt (вес 1.5) → 37 чанков
+2026-08-05 05:34:19,469 | INFO | 📄 Закон о гос наградах.txt (вес 1.5) → 12 чанков
+2026-08-05 05:34:20,144 | INFO | 📄 Закон о детективной деятельности.txt (вес 1.5) → 14 чанков
+2026-08-05 05:34:20,855 | INFO | 📄 Закон о деятельности ОГП.txt (вес 1.5) → 28 чанков
+2026-08-05 05:34:22,104 | INFO | 📄 Закон о коллегии адвокатов.txt (вес 1.5) → 20 чанков
+2026-08-05 05:34:23,199 | INFO | 📄 Закон о конгрессе.txt (вес 1.5) → 19 чанков
+2026-08-05 05:34:24,390 | INFO | 📄 Закон о неприкос.txt (вес 1.5) → 9 чанков
+2026-08-05 05:34:24,994 | INFO | 📄 Закон О политических партиях на территории штата.txt (вес 1.5) → 34 чанков
+2026-08-05 05:34:26,673 | INFO | 📄 Закон о правительстве.txt (вес 1.5) → 28 чанков
+2026-08-05 05:34:28,282 | INFO | 📄 Закон О предпринимательской деятельности.txt (вес 1.5) → 24 чанков
+2026-08-05 05:34:29,605 | INFO | 📄 Закон о противодействии тероризму.txt (вес 1.5) → 27 чанков
+2026-08-05 05:34:30,738 | INFO | 📄 Закон О собраниях, митингах и публичных мероприятиях.txt (вес 1.5) → 29 чанков
+2026-08-05 05:34:32,047 | INFO | 📄 Закон О средствах массовой информации.txt (вес 1.5) → 30 чанков
+2026-08-05 05:34:33,460 | INFO | 📄 Закон о ФИБ.txt (вес 1.5) → 52 чанков
+2026-08-05 05:34:35,867 | INFO | 📄 Закон О чрезвычайном и военном положении.txt (вес 1.5) → 7 чанков
+2026-08-05 05:34:36,179 | INFO | 📄 Закон о юрисдикции.txt (вес 1.5) → 7 чанков
+2026-08-05 05:34:36,510 | INFO | 📄 Закон об обороте оружия.txt (вес 1.5) → 41 чанков
+2026-08-05 05:34:38,653 | INFO | 📄 Закон об ОРМ.txt (вес 1.5) → 30 чанков
+2026-08-05 05:34:40,370 | INFO | 📄 Закон об особых обьектах.txt (вес 1.5) → 37 чанков
+2026-08-05 05:34:42,423 | INFO | 📄 Закон Об Установлении прав и защите животного мира штата San-Andreas.txt (вес 1.5) → 19 чанков
+2026-08-05 05:34:43,271 | INFO | 📄 Закон Об Экстренной Медицинской Службе.txt (вес 1.5) → 44 чанков
+2026-08-05 05:34:45,135 | INFO | 📄 Конституция.txt (вес 1.5) → 45 чанков
+2026-08-05 05:34:46,966 | INFO | 📄 Процеусальный кодекс.txt (вес 1.0) → 85 чанков
+2026-08-05 05:34:50,536 | INFO | 📄 Региональные правохранительные службы.txt (вес 1.0) → 22 чанков
+2026-08-05 05:34:51,678 | INFO | 📄 судебный кодекс.txt (вес 1.0) → 252 чанков
+2026-08-05 05:34:56,182 | WARNING | Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "C:\Users\Виктор Героев\Downloads\Законка\bot.py", line 684, in <module>
+    bot.run(BOT_TOKEN)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\disnake\client.py", line 1291, in run
+    loop.run_forever()
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 677, in run_forever
+    self._run_once()
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 2046, in _run_once
+    handle._run()
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\disnake\client.py", line 722, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Виктор Героев\Downloads\Законка\bot.py", line 594, in on_ready
+    load_knowledge()
+  File "C:\Users\Виктор Героев\Downloads\Законка\bot.py", line 188, in load_knowledge
+    emb = embedding_model.encode(chunk, normalize_embeddings=True)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\sentence_transformers\util\decorators.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\sentence_transformers\sentence_transformer\model.py", line 661, in encode
+    out_features = self.forward(features, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\sentence_transformers\base\model.py", line 511, in forward
+    input = module(input, **module_kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\sentence_transformers\base\modules\transformer.py", line 1111, in forward
+    model_output = model_method(**filtered_kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\utils\generic.py", line 1040, in wrapper
+    output = func(self, *args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\utils\output_capturing.py", line 262, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 673, in forward
+    encoder_outputs = self.encoder(
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 440, in forward
+    hidden_states = layer_module(
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\modeling_layers.py", line 110, in __call__
+    return super().__call__(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 412, in forward
+    layer_output = apply_chunking_to_forward(
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\pytorch_utils.py", line 201, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 419, in feed_forward_chunk
+    layer_output = self.output(intermediate_output, attention_output)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 352, in forward
+    hidden_states = self.dense(hidden_states)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+
+2026-08-05 05:35:04,919 | INFO | 📄 Трудовой кодекс.txt (вес 1.0) → 52 чанков
+2026-08-05 05:35:06,204 | WARNING | Shard ID None heartbeat blocked for more than 20 seconds.
+Loop thread traceback (most recent call last):
+  File "C:\Users\Виктор Героев\Downloads\Законка\bot.py", line 684, in <module>
+    bot.run(BOT_TOKEN)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\disnake\client.py", line 1291, in run
+    loop.run_forever()
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 677, in run_forever
+    self._run_once()
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 2046, in _run_once
+    handle._run()
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\disnake\client.py", line 722, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\Виктор Героев\Downloads\Законка\bot.py", line 594, in on_ready
+    load_knowledge()
+  File "C:\Users\Виктор Героев\Downloads\Законка\bot.py", line 188, in load_knowledge
+    emb = embedding_model.encode(chunk, normalize_embeddings=True)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\sentence_transformers\util\decorators.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\sentence_transformers\sentence_transformer\model.py", line 661, in encode
+    out_features = self.forward(features, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\sentence_transformers\base\model.py", line 511, in forward
+    input = module(input, **module_kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\sentence_transformers\base\modules\transformer.py", line 1111, in forward
+    model_output = model_method(**filtered_kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\utils\generic.py", line 1040, in wrapper
+    output = func(self, *args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\utils\output_capturing.py", line 262, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 673, in forward
+    encoder_outputs = self.encoder(
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 440, in forward
+    hidden_states = layer_module(
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\modeling_layers.py", line 110, in __call__
+    return super().__call__(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 412, in forward
+    layer_output = apply_chunking_to_forward(
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\pytorch_utils.py", line 201, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 418, in feed_forward_chunk
+    intermediate_output = self.intermediate(attention_output)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\transformers\models\bert\modeling_bert.py", line 339, in forward
+    hidden_states = self.dense(hidden_states)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Виктор Героев\AppData\Local\Programs\Python\Python314\Lib\site-packages\torch\nn\modules\linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+
+2026-08-05 05:35:07,640 | INFO | 📄 Уголовный кодекс.txt (вес 1.5) → 112 чанков
+2026-08-05 05:35:12,939 | INFO | 📄 Этический кодекс.txt (вес 1.0) → 16 чанков
+2026-08-05 05:35:13,635 | INFO | ✅ Сгенерировано 1326 чанков с весами
+2026-08-05 05:35:13,636 | INFO | ✅ Бот midora AI#8443 запущен, чанков: 1326
+2026-08-05 05:35:13,638 | INFO | Timed out receiving packet. Attempting a reconnect.
+2026-08-05 05:35:13,638 | INFO | Got a request to RESUME the websocket.
+2026-08-05 05:35:14,176 | INFO | Shard ID None has sent the RESUME payload.
+2026-08-05 05:35:14,392 | INFO | Shard ID None has successfully RESUMED session e0440941d31fe8a83ba6513219d70953 under trace ["gateway-prd-arm-us-east1-d-d8nv",{"micros":5502,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":3033,"calls":[]},"session_lookup_finished",{"micros":9,"calls":[]},"sessions-prd-gcp-us-east1-d-45",{"micros":15}]}].
+2026-08-05 05:36:01,070 | ERROR | Ошибка в on_message: 400 Bad Request (error code: 50035): Invalid Form Body
+In content: Must be 2000 or fewer in length.
+2026-08-05 05:36:41,067 | INFO | Received signal to terminate bot and event loop.
+2026-08-05 05:36:41,067 | INFO | Cleaning up tasks.
+2026-08-05 05:36:41,068 | INFO | Cleaning up after 3 tasks.
+2026-08-05 05:36:41,069 | INFO | All tasks finished cancelling.
+2026-08-05 05:36:41,069 | INFO | Closing the event loop.
+2026-08-05 05:36:55,157 | INFO | No device provided, using cpu
+2026-08-05 05:36:55,963 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:36:55,963 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-05 05:36:56,053 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-08-05 05:36:56,270 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:36:56,359 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-05 05:36:56,360 | INFO | Loading SentenceTransformer model from sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2.
+2026-08-05 05:36:56,568 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:36:56,663 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-05 05:36:56,892 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:36:56,980 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/README.md "HTTP/1.1 200 OK"
+2026-08-05 05:36:57,191 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:36:57,285 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/modules.json "HTTP/1.1 200 OK"
+2026-08-05 05:36:57,499 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:36:57,588 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-08-05 05:36:57,803 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-08-05 05:36:58,015 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:36:58,103 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-08-05 05:36:58,572 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-08-05 05:36:58,784 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-05 05:36:59,004 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-05 05:36:59,214 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-05 05:36:59,424 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:36:59,514 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-05 05:36:59,731 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:36:59,821 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-08-05 05:37:00,036 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:37:00,125 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/config.json "HTTP/1.1 200 OK"
+2026-08-05 05:37:00,344 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:37:00,435 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-05 05:37:00,646 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:37:00,735 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-05 05:37:00,963 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-05 05:37:01,177 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-05 05:37:03,090 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-08-05 05:37:03,495 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-05 05:37:03,584 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2/e8f8c211226b894fcb81acc59f3b34ba3efd5f42/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-08-05 05:37:03,795 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 "HTTP/1.1 200 OK"
+2026-08-05 05:37:03,802 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2026-08-05 05:37:03,803 | INFO | logging in using static token
+2026-08-05 05:37:04,969 | INFO | Shard ID None has sent the IDENTIFY payload.
+2026-08-05 05:37:05,411 | INFO | Shard ID None has connected to Gateway: ["gateway-prd-arm-us-east1-d-6n1g",{"micros":222333,"calls":["id_created",{"micros":804,"calls":[]},"session_lookup_time",{"micros":309,"calls":[]},"session_lookup_finished",{"micros":10,"calls":[]},"sessions-prd-gcp-us-east1-d-84",{"micros":220770,"calls":["start_session",{"micros":175252,"calls":["prd-rpc-5b9cd885cf-rmscv",{"micros":79370,"calls":["get_user",{"micros":15384},"get_guilds",{"micros":7761},"send_scheduled_deletion_message",{"micros":22},"guild_join_requests",{"micros":5},"authorized_ip_coro",{"micros":16},"pending_payments",{"micros":2244},"apex_experiments",{"micros":82977},"sessions_experiments",{"micros":6},"played_application_ids",{"micros":3},"linked_users",{"micros":8},"ad_personalization_toggles_disabled",{"micros":4},"regional_feature_config",{"micros":4}]}]},"starting_guild_connect",{"micros":62,"calls":[]},"lobbies_started",{"micros":1,"calls":[]},"presence_started",{"micros":16499,"calls":[]},"guilds_started",{"micros":85,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":28847,"calls":[]},"connect_finished",{"micros":28858,"calls":[]},"build_ready",{"micros":11,"calls":[]},"clean_ready",{"micros":2,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 659a0337914bebba0dc606fda2662b0d, Resume URL: wss://gateway-us-east1-d.discord.gg).
+2026-08-05 05:37:07,491 | INFO | ✅ Загружено 1326 чанков из кеша
+2026-08-05 05:37:07,492 | INFO | ✅ Бот midora AI#8443 запущен, чанков: 1326
+2026-08-05 05:38:11,030 | INFO | Received signal to terminate bot and event loop.
+2026-08-05 05:38:11,031 | INFO | Cleaning up tasks.
+2026-08-05 05:38:11,032 | INFO | Cleaning up after 3 tasks.
+2026-08-05 05:38:11,036 | INFO | All tasks finished cancelling.
+2026-08-05 05:38:11,037 | INFO | Closing the event loop.
