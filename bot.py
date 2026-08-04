@@ -45,7 +45,7 @@ CACHE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "knowledge
 SIMILARITY_THRESHOLD = 0.35
 TOP_K = 6
 MOSCOW_TZ = timezone(timedelta(hours=3))
-MEMORY_TIMEOUT = 900  # 30 минут
+MEMORY_TIMEOUT = 600  # 30 минут
 EMBED_COLOR = 0x282828
 
 # время жизни ветки (24 часа) – для автоархивации
@@ -97,12 +97,15 @@ logger = logging.getLogger("midora_ai")
 
 #моделька эмбединга
 print("🔄 Загружаем модель...")
-embedding_model = SentenceTransformer('intfloat/multilingual-e5-small', model_kwargs={'torch_dtype': 'float16'})
+embedding_model = SentenceTransformer(
+    'distiluse-base-multilingual-cased-v2',
+    model_kwargs={'torch_dtype': 'float16'}
+)
 print("✅ Модель загружена")
 
 # кэш
 query_embedding_cache: Dict[str, np.ndarray] = {}
-EMBEDDING_CACHE_SIZE = 50
+EMBEDDING_CACHE_SIZE = 20
 
 def get_cached_embedding(text: str) -> Optional[np.ndarray]:
     return query_embedding_cache.get(text)
@@ -226,7 +229,7 @@ async def get_relevant_chunks(query: str) -> List[str]:
 
 # кэш
 class ResponseCache:
-    def __init__(self, maxsize=15, ttl=180):
+    def __init__(self, maxsize=10, ttl=130):
         self.cache = OrderedDict()
         self.maxsize = maxsize
         self.ttl = ttl
