@@ -98,7 +98,7 @@ logger = logging.getLogger("midora_ai")
 #моделька эмбединга
 print("🔄 Загружаем модель...")
 embedding_model = SentenceTransformer('intfloat/multilingual-e5-small', model_kwargs={'torch_dtype': 'float16'})
-print("✅ Модель загружена"))
+print("✅ Модель загружена")
 
 # кэш
 query_embedding_cache: Dict[str, np.ndarray] = {}
