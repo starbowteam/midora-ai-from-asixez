@@ -43,7 +43,7 @@ KNOWLEDGE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "knows"
 CACHE_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "knowledge_cache.pkl")
 
 SIMILARITY_THRESHOLD = 0.35
-TOP_K = 12
+TOP_K = 6
 MOSCOW_TZ = timezone(timedelta(hours=3))
 MEMORY_TIMEOUT = 1800  # 30 минут
 EMBED_COLOR = 0x282828
@@ -97,7 +97,7 @@ logger = logging.getLogger("midora_ai")
 
 #моделька эмбединга
 print("🔄 Загружаем модель...")
-embedding_model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+embedding_model = SentenceTransformer('intfloat/multilingual-e5-small')
 print("✅ Модель загружена")
 
 # кэш
@@ -124,7 +124,7 @@ def get_file_weight(filename: str) -> float:
             return 1.5
     return 1.0
 
-def chunk_text(text: str, max_chars: int = 900, overlap: int = 150) -> List[str]:
+def chunk_text(text: str, max_chars: int = 1300, overlap: int = 150) -> List[str]:
     if not text:
         return []
     sentences = re.split(r'(?<=[.!?])\s+', text)
@@ -226,7 +226,7 @@ async def get_relevant_chunks(query: str) -> List[str]:
 
 # кэш
 class ResponseCache:
-    def __init__(self, maxsize=50, ttl=600):
+    def __init__(self, maxsize=25, ttl=310):
         self.cache = OrderedDict()
         self.maxsize = maxsize
         self.ttl = ttl
@@ -249,7 +249,7 @@ cache = ResponseCache()
 # умная память диалогов через типо чето рага.
 conversation_memory: Dict[int, List[Dict[str, str]]] = {}
 user_last_activity: Dict[int, float] = {}
-MAX_HISTORY = 6
+MAX_HISTORY = 3
 
 def get_history(user_id: int) -> List[Dict[str, str]]:
     if user_id in user_last_activity and time.time() - user_last_activity[user_id] > MEMORY_TIMEOUT:
